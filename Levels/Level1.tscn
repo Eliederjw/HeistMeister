@@ -48,6 +48,9 @@ position = Vector2( 1536, 568 )
 [node name="Destination12" type="Position2D" parent="Navigation2D/Destinations" index="12"]
 position = Vector2( 1280, 1024 )
 
+[node name="Player" parent="." index="1"]
+position = Vector2( 1472, 760 )
+
 [node name="Camera" parent="Cameras" index="0" instance=ExtResource( 2 )]
 position = Vector2( 656, 872 )
 
