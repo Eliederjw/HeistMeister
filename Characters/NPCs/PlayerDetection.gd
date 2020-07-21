@@ -34,7 +34,7 @@ func Player_in_LOS():
 		
 	var distance_to_Player = Player.global_position.distance_to(global_position)
 	var Player_in_Range = distance_to_Player < MAX_DETECTION_RANGE
-	
+		
 	if LOS_obstacle.collider == Player and Player_in_Range:
 		return true
 	else: 
