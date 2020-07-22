@@ -19,7 +19,7 @@ position = Vector2( 320, 920 )
 position = Vector2( 160, 448 )
 
 [node name="Destination3" type="Position2D" parent="Navigation2D/Destinations" index="3"]
-position = Vector2( 416, -152 )
+position = Vector2( 480, -136 )
 
 [node name="Destination4" type="Position2D" parent="Navigation2D/Destinations" index="4"]
 position = Vector2( 920, -248 )
@@ -40,7 +40,7 @@ position = Vector2( 968, 824 )
 position = Vector2( 1632, -288 )
 
 [node name="Destination10" type="Position2D" parent="Navigation2D/Destinations" index="10"]
-position = Vector2( 1216, 280 )
+position = Vector2( 1256, 296 )
 
 [node name="Destination11" type="Position2D" parent="Navigation2D/Destinations" index="11"]
 position = Vector2( 1536, 568 )
@@ -49,7 +49,7 @@ position = Vector2( 1536, 568 )
 position = Vector2( 1280, 1024 )
 
 [node name="Furniture" parent="Navigation2D" index="2"]
-tile_data = PoolIntArray( 917527, 1, 0, 917528, 1610612738, 0, 917529, 1610612737, 0, 1048600, 0, 0 )
+tile_data = PoolIntArray( -327670, 536870917, 0, -262118, 536870918, 0, -196603, -536870912, 0, -196602, -2147483647, 0, -196591, -2147483643, 0, -131066, -536870911, 0, -65527, 536870918, 0, -65524, 536870918, 0, -65510, -536870907, 0, 131089, -536870906, 0, 196613, -536870906, 0, 196620, -536870906, 0, 196625, 1, 0, 196626, 536870914, 0, 196627, 536870913, 0, 196632, 1, 0, 196633, 2, 0, 196634, 536870913, 0, 262149, -536870912, 0, 262150, 1073741828, 0, 262151, -2147483648, 0, 262162, 536870912, 0, 262169, 536870912, 0, 327685, -536870906, 0, 327703, 536870918, 0, 458764, -2147483642, 0, 524305, -2147483642, 0, 524314, -2147483642, 0, 655365, -2147483642, 0, 655370, -2147483642, 0, 655384, -2147483647, 0, 720899, -2147483647, 0, 720904, -2147483643, 0, 720920, -1073741822, 0, 720921, -2147483648, 0, 786434, -536870912, 0, 786435, -2147483646, 0, 786449, -2147483643, 0, 786456, -1073741823, 0, 851971, -536870911, 0, 917507, -2147483647, 0, 917528, -2147483647, 0, 983042, -536870912, 0, 983043, -2147483646, 0, 983048, -2147483642, 0, 983064, -1073741822, 0, 983065, -2147483648, 0, 1048579, -536870911, 0, 1048600, -1073741823, 0, 1114129, -2147483642, 0, 1114138, -2147483642, 0 )
 
 [node name="Player" parent="." index="1"]
 position = Vector2( 144, 136 )
@@ -66,7 +66,7 @@ position = Vector2( 816, 352 )
 rotation = 3.14159
 
 [node name="Guard" parent="Guards" index="0" instance=ExtResource( 3 )]
-position = Vector2( 1368, 528 )
+position = Vector2( 1400, 528 )
 rotation = 1.57079
 
 [node name="Guard2" parent="Guards" index="1" instance=ExtResource( 3 )]

@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Tiles/Tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://Characters/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://GFX/Tilesheet/tilesheet_complete.png" type="Texture" id=3]
+[ext_resource path="res://Interface/VisionMode.tscn" type="PackedScene" id=4]
 
 [sub_resource type="OccluderPolygon2D" id=1]
 polygon = PoolVector2Array( 56, 56, 8, 56, 8, 12, 56, 12 )
@@ -143,9 +144,7 @@ position = Vector2( 164.816, 166.497 )
 [node name="Camera2D" type="Camera2D" parent="Player"]
 current = true
 
-[node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
-color = Color( 0.231373, 0.231373, 0.231373, 1 )
+[node name="VisionMode" parent="." instance=ExtResource( 4 )]
 
 [node name="Cameras" type="Node" parent="."]
 
