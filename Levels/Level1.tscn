@@ -98,18 +98,18 @@ rotation = 1.5708
 position = Vector2( 1056, 672 )
 rotation = 1.5708
 
-[node name="Door 8" parent="Doors" index="6" instance=ExtResource( 4 )]
+[node name="Door 7" parent="Doors" index="6" instance=ExtResource( 4 )]
+position = Vector2( 1056, 992 )
+rotation = 1.5708
+
+[node name="Door 8" parent="Doors" index="7" instance=ExtResource( 4 )]
 position = Vector2( 608, 928 )
 rotation = 1.5708
 
-[node name="Door 9" parent="Doors" index="7" instance=ExtResource( 4 )]
+[node name="Door 9" parent="Doors" index="8" instance=ExtResource( 4 )]
 position = Vector2( 288, 416 )
 rotation = 1.5708
 
-[node name="Door 10" parent="Doors" index="8" instance=ExtResource( 4 )]
-position = Vector2( 288, 160 )
-rotation = 1.5708
-
 [node name="LockedDoor" parent="LockedDoors" index="0" instance=ExtResource( 5 )]
-position = Vector2( 1056, 992 )
+position = Vector2( 290, 160 )
 rotation = 1.5708
